@@ -2,11 +2,11 @@
 
 import streamlit as st
 
-from gao_st.common import ideal_config as config
-from gao_st.common import ideal_ui
-from gao_st.data_viz import histogram, boxplot, bar_chart, pie_chart, line_chart, scatter_plot, choropleth
-from gao_st.data_prep import data_filter, data_aggregate
-from gao_st import univariate
+from ideal_util.common import ideal_config as config
+from ideal_util.common import ideal_ui
+from ideal_util.data_viz import histogram, boxplot, bar_chart, pie_chart, line_chart, scatter_plot, choropleth
+from ideal_util.data_prep import data_filter, data_aggregate
+from ideal_util import univariate
 
 CHARTS = [
     "Histogram",

@@ -4,8 +4,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from gao_st.common import ideal_server, ideal_config
-from gao_st.data_viz import viz_utils
+from ideal_util.common import ideal_server, ideal_config
+from ideal_util.data_viz import viz_utils
 
 SCOPE = ['world', 'usa', 'europe', 'asia', 'africa', 'north america', 'south america']
 

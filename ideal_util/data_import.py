@@ -4,7 +4,7 @@ import os
 import pandas as pd  
 import streamlit as st
 
-from gao_st.common import ideal_config, ideal_ui, ideal_server, file_uploader
+from ideal_util.common import ideal_config, ideal_ui, ideal_server, file_uploader
 
 # get the directory of the current script
 script_dir = os.path.dirname(__file__)

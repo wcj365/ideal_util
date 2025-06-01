@@ -11,13 +11,6 @@ INFO_ICON = "ℹ️"
 WARNING_ICON = "⚠️"
 ERROR_ICON = "❌"
 
-
-DISCLAIMER = '''
-    - This is a GAO internal tool approved for sensitive (but not classified) data. 
-    - Files uploaded by users are not saved beyond their current browser sessions. 
-    - For support, contact `Chaojie (Jay) Wang` (wangc1@gao.gov).
-'''
-
 US_EASTERN = pytz.timezone('US/Eastern')
 DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S %Z"
 

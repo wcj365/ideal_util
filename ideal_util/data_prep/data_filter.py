@@ -7,7 +7,7 @@ import re
 import pandas as pd
 import streamlit as st
 
-from gao_st.common import ideal_config
+from ideal_util.common import ideal_config
 
 
 STRING_OPERATORS = [

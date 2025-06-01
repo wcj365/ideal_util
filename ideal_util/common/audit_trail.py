@@ -3,7 +3,7 @@
 from datetime import datetime
 import pandas as pd
 
-from gao_st.common import ideal_config as config
+from ideal_util.common import ideal_config as config
 
 
 def coversheet(tool_name, tool_url):

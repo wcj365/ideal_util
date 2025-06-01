@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from gao_st.common import ideal_config, ideal_ui
+from ideal_util.common import ideal_config, ideal_ui
 
 CATEGORICAL = ["string", "object", "category"]
 NUMERICAL = ["int64", "float64"]

@@ -9,7 +9,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 import streamlit as st
 
-from gao_st.common import ideal_config
+from ideal_util.common import ideal_config
 
         
 @st.cache_data

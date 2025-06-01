@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 
 def get_version():
-    with open('gao_st/__init__.py', 'r') as f:
+    with open('ideal_util/__init__.py', 'r') as f:
         content = f.read()
         version_match = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]", content, re.M)
         if version_match:
@@ -19,17 +19,17 @@ def get_requirements():
 
 
 setup(
-    name='gao-st',  # use "-" instead of "_" only to satisfy Python Package Index
+    name='ideal-util',  # use "-" instead of "_" only to satisfy Python Package Index
     version=get_version(),
     packages=find_packages(),
     include_package_data=True,  # Include additional files specified in MANIFEST.in
     install_requires=get_requirements(),
     author='Dr. Chaojie (jay) Wang',
-    author_email='wangc1@gao.gov',
+    author_email='wcj365@gmail.com',
     description='Common utilities for Streamlit apps.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://git.gao.gov/WangC1/gao_st',
+    url='https://github.com/wcj365/ideal_util',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
