@@ -21,7 +21,7 @@ def coversheet(tool_name, tool_url):
         tool_name,
         tool_url,
         now.strftime(config.DATETIME_FORMAT),
-        "Please consult your ARM stakeholder(s) before using the data in a report or making any methodological decisions."
+        "Disclaimer."
     ]
     
     key_list = [key.upper() for key in key_list]
